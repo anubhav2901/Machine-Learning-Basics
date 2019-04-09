@@ -3,7 +3,7 @@
 Decision tree is decision based tool, structured in a tree architecture. Here every node represents a decision to be taken on the dataset and paves a path to its children based on the result of the decision. Decision tree can be used for both Classification and Regression problems in Supervised Learning.
 
 Example, for categorising patients with high Blood Pressure, we might use these decisions:-
-![High BP Decision Tree](https://github.com/Snorlexing/Machine-Learning-Basics/blob/Decision-tree-edit/Decision%20Tree/HIGH%20BP%20DECISION%20TREE.png)
+![High BP Decision Tree](https://github.com/Snorlexing/Machine-Learning-Basics/blob/master/Decision%20Tree/HIGH%20BP%20DECISION%20TREE.png)
 
 The combination of decisions in a decision tree affects the accuracy of the results. So, it is important that decision rules are properly arranged to increase the efficiency of the decision tree.
 
