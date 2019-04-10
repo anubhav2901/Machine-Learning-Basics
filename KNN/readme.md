@@ -2,7 +2,7 @@
 K-Nearest Neighbors is a non-parameteric learning algorithm method which can be used for both the classification and regression problems. 
 This algorithm predicts a value for unknown data, on the basis of the characteristics of its k nearest neighbors. Hence, it is named K-Nearest Neighbors algorithm. For the problem of classification, a class is assigned to the test data depending on the proximity of the test data to the data points of that particular class. For the problem of Regression, a prediction value is generated based on the average value of the target values of the data points in its proximity.
 
-![KNN](https://github.com/Snorlexing/Machine-Learning-Basics/blob/knn-edit/KNN/knn.png)
+![KNN](https://github.com/Snorlexing/Machine-Learning-Basics/blob/master/KNN/knn.png)
 
 ### Effect of different values of Hyperparameter K:-
   * K is generally assigned an odd value to avoid the case of equal number of data points belonging to both classes being selected as the   nearest neighbors of a test data point.
