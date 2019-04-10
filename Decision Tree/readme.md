@@ -41,3 +41,7 @@ ID3 algorithm is iteratively repeated for every node till the data belongs to sa
   1. It does not guarentee an optimal solution i.e. it can converge to local optima.
   2. It can overfit the dataset.
   3. It can be harder to use for continuous data.
+
+> Source: 
+> * https://en.wikipedia.org/wiki/Decision_tree
+> * https://en.wikipedia.org/wiki/ID3_algorithm
