@@ -2,7 +2,7 @@
 K-Means is an unsupervised learning algorithm, used for determining the clusters of data points having similar properties.
 In this algorithm, centroids of k clusters are at first randomly initialised then, data points are assigned a cluster depending on the proximity of the centroid of a particular cluster. Then, the hypothesized centroids are updated to the centroids of the clusters formed. This is procedure followed until there is no significant change in the position of the centroids.
 
-![Kmeans](https://github.com/Snorlexing/Machine-Learning-Basics/blob/k-mean-edit/KMEANS/kmeans.png)
+![Kmeans](https://github.com/Snorlexing/Machine-Learning-Basics/blob/master/KMEANS/kmeans.png)
 #### Fig. (Trainsition of predicted mean values towards actual means of clusters.)
 
 K-means is NP-hard problem, i.e. it is not computationally feasible to determine how many iterations the algorithm will run before halting. However, using efficient Heuristic algorithms the algorithm can converge to a local optima quickly.
