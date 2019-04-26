@@ -20,3 +20,5 @@ The class having the maximum value of the prosterior probability, that class wil
 #### Disadvantages of Naive Bayes Classifier: -
 * It cannot learn the interaction amongst the features.
 * It is inefficient for very large and complex datasets.
+
+>Source: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
