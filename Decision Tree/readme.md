@@ -11,7 +11,7 @@ To train a decision tree for better accuracy of results, we train our decision t
 
 Firstly we calculate the entropy associated with every decision, using the formula: -
 
-![entropy](https://latex.codecogs.com/gif.latex?%7BH%28S%29%3D%5Csum%20_%7Bx%5Cin%20X%7D%7B-p%28x%29%5Clog%20_%7B2%7Dp%28x%29%7D%7D)
+![entropy](https://latex.codecogs.com/gif.latex?H(S)=\sum_{x\in&space;X}{-p(x)\log_2p(x)})
 
 Here,
   * S – Represents the current dataset.
@@ -21,7 +21,7 @@ Here,
 H(S) = 0, represents that the data points in the dataset S, belong to same class.
   
 Now, using the entropy calculated above, we determine the information gain using the formula: - 
-### ![infogain](https://latex.codecogs.com/gif.latex?IG%28S%2CA%29%3D%5Cmathrm%20%7BH%7D%20%7B%28S%29%7D-%5Csum%20_%7Bt%5Cin%20T%7Dp%28t%29%5Cmathrm%20%7BH%7D%20%7B%28t%29%7D%3D%5Cmathrm%20%7BH%7D%20%7B%28S%29%7D-%5Cmathrm%20%7BH%7D%20%7B%28S%7CA%29%7D)
+### ![infogain](https://latex.codecogs.com/gif.latex?IG(S,A)=H(S)-\sum_{t\in&space;T}p(t)H(t))
 
 Here,
   * H(S) – Represents the entropy of set S.
