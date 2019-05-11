@@ -2,11 +2,11 @@
 Naive bayes classifier is simple probabalistic classifier based on Bayes Theorem. This model applies Bayes theorem with an assumption of strong independence amongst the features. It was introduced in early 1960s for text categorization.
 
 #### Bayes Theorem: - 
-<a href="https://www.codecogs.com/eqnedit.php?latex=P(C_{k}|x)&space;=&space;\frac{P(x|C_{k})&space;*&space;P(C_{k})}{P(x)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(C_{k}|x)&space;=&space;\frac{P(x|C_{k})&space;*&space;P(C_{k})}{P(x)}" title="P(C_{k}|x) = \frac{P(x|C_{k}) * P(C_{k})}{P(x)}" /></a>
+![bayestheorem](https://latex.codecogs.com/gif.latex?p(C_k|X)=\frac{p(X|C_k)p(C_k)}{p(X)})
 
 For naive bayes classifier we consider the features to be indepedent. Since evidence is same for every class therefore, the model will be concerned for the product of likelihood and prior.
 Therefore, the Naive Bayes classifier model is:-
-<a href="https://www.codecogs.com/eqnedit.php?latex=P(C_{k}|x)&space;=&space;P(C_{k})\prod_{i=1}^{n}P(x_{i}|C_{k})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(C_{k}|x)&space;=&space;P(C_{k})\prod_{i=1}^{n}P(x_{i}|C_{k})" title="P(C_{k}|x) = P(C_{k})\prod_{i=1}^{n}P(x_{i}|C_{k})" /></a>
+![naivebayes](https://latex.codecogs.com/gif.latex?p(C_k|X)=p(C_k)\prod_{i=1}^{n}p(x_i|C_k))
 
 The class having the maximum value of the prosterior probability, that class will be assigned to the unknown data point (*x*).
 
