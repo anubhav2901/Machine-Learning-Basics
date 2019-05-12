@@ -2,11 +2,11 @@
 Naive bayes classifier is simple probabalistic classifier based on Bayes Theorem. This model applies Bayes theorem with an assumption of strong independence amongst the features. It was introduced in early 1960s for text categorization.
 
 #### Bayes Theorem: - 
-![bayestheorem](https://latex.codecogs.com/gif.latex?p(C_k|X)=\frac{p(X|C_k)p(C_k)}{p(X)})
+![bayestheorem](https://latex.codecogs.com/gif.latex?\bg_white&space;P(C_k|X)=\frac{P(X|C_k)P(C_k)}{P(X)})
 
 For naive bayes classifier we consider the features to be indepedent. Since evidence is same for every class therefore, the model will be concerned for the product of likelihood and prior.
 Therefore, the Naive Bayes classifier model is:-
-![naivebayes](https://latex.codecogs.com/gif.latex?p(C_k|X)=p(C_k)\prod_{i=1}^{n}p(x_i|C_k))
+![naivebayes](https://latex.codecogs.com/gif.latex?\bg_white&space;P(C_k|X)=P(C_k)\prod_{i=1}^{n}P(x_i|C_k))
 
 The class having the maximum value of the prosterior probability, that class will be assigned to the unknown data point (*x*).
 
